@@ -1,0 +1,120 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.masthead-heading,
+.masthead-intro, 
+.content-footer {
+  text-align: center;
+}
+.masthead {
+  padding 6em 0;
+  background-image: url('https://unsplash.imgix.net/reserve/vof4H8A1S02iWcK6mSAd_sarahmachtsachen.com_TheBeach.jpg?q=75&fm=jpg&s=992e28f0751267625026c5a18b66953c');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 0.2em #487068/* #FFCF33 */;
+  max-width: 100%;
+  -moz-box-shadow:    3px 3px 5px 6px #487068;
+  -webkit-box-shadow: 3px 3px 5px 6px #487068; 
+  box-shadow:         3px 3px 5px 6px #487068;
+}
+.intro-wrapper {
+  background-color: #649C90;
+  /* display: inline-block; */
+  margin: auto auto; 
+  width: 25%; 
+}
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+.masthead-heading {
+  margin-top: -.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.introduction-section,
+.location-section,
+.questions-section,
+.content-footer {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.projects-section {
+    max-width: 76em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+.page-footer {
+  background-color: #B58D69;
+  -moz-box-shadow:    3px 3px 5px 6px #8C6C5D;
+  -webkit-box-shadow: 3px 3px 5px 6px #8C6C5D; 
+  box-shadow:         3px 3px 5px 6px #8C6C5D;
+}
+
+.content-footer > p {
+  color: white;
+}
+.introduction-section > p,
+.location-section > p,
+.content-footer > p,
+.projects-section > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #649C90;
+
+}
+
+.screenshot {
+  width: 100%;
+}
+section > h2 {
+  margin-top: 2em;
+}
+
+.projects-section > hr {
+    border: 0;
+    border-top: 5px solid #487068 /*#eaebec */;
+    margin: 1.313rem 0;
+}
+
+.project-separator {
+    border: 0;
+    border-top: 5px solid #649C90 /*#eaebec */;
+    margin: 2.313rem 0;
+}
+
+h1 {
+  color: #487068;
+  text-shadow: 1px 1px 1px #000;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .intro-wrapper {
+    width: 40%;
+  }
+  .masthead-heading {
+    font-size: 4em;
+  }
+}
